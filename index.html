@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +9,14 @@
 
 </head>
 
-<body class="text-gray-600 font-semibold">
 
-  <div class="grid md:grid-cols-3">
-    <div class="md:col-span-1 md:flex md:justify-center">
+<body class="text-gray-600 font-semibold">
+  
+  <div class="preloader"> </div>
+
+  <div class="grid md:grid-cols-3 ">
+ 
+    <div class="md:col-span-1 md:flex md:justify-center ">
       <nav class="text-right">
         <div class="flex justify-between items-center">
           <h1 class="font-bold uppercase p-4 border-b border-gray-400">
@@ -28,10 +31,18 @@
           </div>
         </div>
         <ul class="text-sm mt-6 hidden md:block " id="menu">
+
+          <li>
+        </li>
+        
+
+
+
+
           <li class="text=gray-700 font-bold uppercase py-2">
-            <a href="#" class="px-4 flex justify-end border-r-4 border-red-500">
-              <span>Home</span>
-              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            <a href="./profil.html" class="px-4 flex justify-end border-r-4 border-red-500">
+              <span href="">Home</span>
+              <svg class="w-5 ml-2" xmlns="" fill="none" viewBox="0 0 24 24"
                 stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -51,7 +62,7 @@
             </a>
           </li>
           <li class=" text=gray-700 font-bold uppercase py-2">
-            <a href="#" class="px-4 flex justify-end border-r-4 border-white">
+            <a href="#" class="px-4 flex justify-end border-r-4 border-white  hover:bg-teal-500 hover:text-white hover:text-base rounded-lg transition duration-150 ease-in-out">
               <span>Contact</span>
               <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                 stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -61,13 +72,43 @@
 
             </a>
           </li>
+
+          <li class=" text=gray-700 font-bold uppercase py-2">
+            <a href="#" class="px-4 flex justify-end border-r-4 border-white  hover:bg-teal-500 hover:text-white hover:text-base rounded-lg transition duration-150 ease-in-out">
+              <span>Contact</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+              </svg>
+
+            </a>
+          </li>
+
+          <li class=" text=gray-700 font-bold uppercase py-2">
+            <a href="#" class="px-4 flex justify-end border-r-4 border-white">
+              <span>About</span>
+              <svg class="w-5 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+              </svg>
+
+            </a>
+          </li>
+         
         </ul>
+
+
+
+        
       </nav>
     </div>
 
     <main class="px-16 py-6 bg-gray-100 md:col-span-2">
-      <div class="flex justify-center md:justify-end">
 
+
+      <div class="flex justify-center md:justify-end ">
 
         <a href="#"
           class=" btn text-red-600 border-red-500 border-2 ml-2 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider hover:bg-red-400 hover:text-white white transition ease-out duration-500">Log
@@ -75,218 +116,156 @@
         <a href="#"
           class=" btn text-red-600 border-red-400 border-2 ml-2 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider  hover:bg-red-400 hover:text-white white transition ease-out duration-500">Sign
           up</a>
-
-
-
-
-
       </div>
+
 
       <div class="flex items-center justify-center">
         <div class="bg-red-500 h-4 w-6"></div>
         <div class="bg-blue-500 h-8 w-6"></div>
         <div class="bg-green-500 h-12 w-6"></div>
       </div>
-
+      <div class="w-82 flex justify-center md:justify-center">
+        <div class="relative h-10 w-full min-w-[200px] ">
+          <input type="email" placeholder="Email Address"
+            class="peer h-full w-full rounded-[7px]  !border  !border-gray-300 border-t-transparent bg-transparent bg-white px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700  shadow-lg shadow-gray-900/5 outline outline-0 ring-4 ring-transparent transition-all placeholder:text-gray-500 placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2  focus:!border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 focus:ring-gray-900/10 disabled:border-0 disabled:bg-blue-gray-50" />
+          <label
+            class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5  hidden h-full w-full select-none !overflow-visible truncate text-[11px] font-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[3.75] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-gray-900 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-gray-900 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500"></label>
+        </div>
+      </div>
 
       <header>
-       
-        <div class="container">
-          <div class="top-bar">
-              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                  stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
-                  <path d="M16 3v4" />
-                  <path d="M8 3v4" />
-                  <path d="M4 11h16" />
-                  <path d="M7 14h.013" />
-                  <path d="M10.01 14h.005" />
-                  <path d="M13.01 14h.005" />
-                  <path d="M16.015 14h.005" />
-                  <path d="M13.015 17h.005" />
-                  <path d="M7.01 17h.005" />
-                  <path d="M10.01 17h.005" />
-              </svg>
-              <h2>
-                  Upcoming events
-              </h2>
-  
-              <button type="button" disabled id="action-button--previous" class="action-button--horizontal-scroll">
-                  <svg width="16" height="16" fill="currentColor" focusable="false" viewBox="0 0 24 24">
-                      <path
-                          d="M12.771 7.115a.829.829 0 0 0-1.2 0L3 15.686l1.2 1.2 7.971-7.971 7.972 7.971 1.2-1.2-8.572-8.571Z">
-                      </path>
-                  </svg>
-              </button>
-              <button type="button" id="action-button--next" class="action-button--horizontal-scroll">
-                  <svg width="16" height="16" fill="currentColor" focusable="false" viewBox="0 0 24 24">
-                      <path
-                          d="M12.771 7.115a.829.829 0 0 0-1.2 0L3 15.686l1.2 1.2 7.971-7.971 7.972 7.971 1.2-1.2-8.572-8.571Z">
-                      </path>
-                  </svg>
-              </button>
-          </div>
-          <div id="events">
-              <a href="#the-weeknd" class="event">
-                  <div class="event__image">
-                      <img src="https://www.urbanstage.cz/wp-content/uploads/2020/03/weeknd.jpg" alt="The Weeknd">
-                      <div class="event__indicator event__date">
-                          08 <div class="event__date__month">
-                              Feb
-                          </div>
-                      </div>
-                      <div class="event__indicator event__type">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                              stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                              stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                              <path d="M15 5l0 2" />
-                              <path d="M15 11l0 2" />
-                              <path d="M15 17l0 2" />
-                              <path
-                                  d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2" />
-                          </svg>
-                      </div>
-  
-                  </div>
-                  <div class="event-description">
-                      <h2>
-                          The Weeknd - After Hours Tour
-                      </h2>
-                      <div class="bottom-stats">
-                          <div class="bottom-stat">
-                              <div class="circle circle--red"></div>
-                              2 new posts
-                          </div>
-                          <div class="bottom-stat">
-                              <div class="circle circle--green"></div>
-                              5 tickets
-                          </div>
-                      </div>
-                  </div>
-              </a>
-              <a href="#the-weeknd" class="event">
-                  <div class="event__image">
-                      <img src="https://media.architecturaldigest.com/photos/641b2b8252ae61ead67e92d9/16:9/w_2560%2Cc_limit/GettyImages-1474485122.jpg"
-                          alt="The Weeknd">
-                      <div class="event__indicator event__date">
-                          16 <div class="event__date__month">
-                              Feb
-                          </div>
-                      </div>
-                      <div class="event__indicator event__type">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                              stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                              stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                              <path d="M15 5l0 2" />
-                              <path d="M15 11l0 2" />
-                              <path d="M15 17l0 2" />
-                              <path
-                                  d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2" />
-                          </svg>
-                      </div>
-  
-                  </div>
-                  <div class="event-description">
-                      <h2>
-                          Taylor Swift - Eras Tour
-                      </h2>
-                      <div class="bottom-stats">
-                          <div class="bottom-stat">
-                              <div class="circle circle--red"></div>
-                              4 new posts
-                          </div>
-                          <div class="bottom-stat">
-                              <div class="circle circle--green"></div>
-                              10 tickets
-                          </div>
-                      </div>
-                  </div>
-              </a>
-              <a href="#the-weeknd" class="event">
-                  <div class="event__image">
-                      <img src="https://fox2now.com/wp-content/uploads/sites/14/2021/09/GettyImages-451833751.jpg?w=1280"
-                          alt="The Weeknd">
-                      <div class="event__indicator event__date">
-                          20 <div class="event__date__month">
-                              Feb
-                          </div>
-                      </div>
-                      <div class="event__indicator event__type">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                              stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                              stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                              <path d="M15 5l0 2" />
-                              <path d="M15 11l0 2" />
-                              <path d="M15 17l0 2" />
-                              <path
-                                  d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2" />
-                          </svg>
-                      </div>
-  
-                  </div>
-                  <div class="event-description">
-                      <h2>
-                          Imagine Dragons
-                      </h2>
-                      <div class="bottom-stats">
-                          <div class="bottom-stat">
-                              <div class="circle circle--red"></div>
-                              2 new posts
-                          </div>
-                          <div class="bottom-stat">
-                              <div class="circle circle--green"></div>
-                              4 tickets purchased
-                          </div>
-                      </div>
-                  </div>
-              </a>
-              <a href="#the-weeknd" class="event">
-                  <div class="event__image">
-                      <img src="https://i.dailymail.co.uk/i/pix/2012/10/05/article-2212936-155E4783000005DC-817_1024x615_large.jpg"
-                          alt="The Weeknd">
-                      <div class="event__indicator event__date">
-                          28 <div class="event__date__month">
-                              March
-                          </div>
-                      </div>
-                      <div class="event__indicator event__type">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                              stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
-                              stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                              <path d="M15 5l0 2" />
-                              <path d="M15 11l0 2" />
-                              <path d="M15 17l0 2" />
-                              <path
-                                  d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2" />
-                          </svg>
-                      </div>
-                  </div>
-                  <div class="event-description">
-                      <h2>
-                          U2
-                      </h2>
-                      <div class="bottom-stats">
-                          <div class="bottom-stat">
-                              <div class="circle circle--red"></div>
-                              2 new posts
-                          </div>
-                          <div class="bottom-stat">
-                              <div class="circle circle--green"></div>
-                              3 tickets purchased
-                          </div>
-                      </div>
-                  </div>
-              </a>
-          </div>
-      </div>
+
+
         
+        <div class="bg-white shadow mt-6  rounded-lg p-6">
+          <h3 class="text-gray-600 text-sm font-semibold mb-4">Following</h3>
+          <ul class="flex items-center justify-center space-x-2">
+              <!-- Story #1 -->
+              <li class="flex flex-col items-center space-y-2">
+                  <!-- Ring -->
+                  <a class="block bg-white p-1 rounded-full" href="#">
+                      <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638612913771-8f00622b96fb?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+                  </a>
+                  <!-- Username -->
+                  <span class="text-xs text-gray-500">
+                      Sage
+                  </span>
+              </li>
+
+              <!-- Story #1 -->
+              <li class="flex flex-col items-center space-y-2">
+                  <!-- Ring -->
+                  <a class="block bg-white p-1 rounded-full" href="#">
+                      <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638649602320-450b717fa622?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+                  </a>
+   
+
+                  <!-- Username -->
+                  <span class="text-xs text-gray-500">
+                      Jett
+                  </span>
+              </li>
+
+              <!-- Story #2 -->
+              <li class="flex flex-col items-center space-y-2">
+                  <!-- Ring -->
+                  <a class="block bg-white p-1 rounded-full" href="#">
+                      <!-- Thumbnail -->
+                      <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638708644743-2502f38000a0?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+                  </a>
+
+                  <!-- Username -->
+                  <span class="text-xs text-gray-500">
+                      Sky
+                  </span>
+              </li>
+
+              <!-- Story #3 -->
+              <li class="flex flex-col items-center space-y-2">
+                  <!-- Ring -->
+                  <a class="block bg-white p-1 rounded-full" href="#">
+                      <!-- Thumbnail -->
+                      <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638691899851-0e955bceba1f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+                  </a>
+      
+                  <!-- Username -->
+                  <span class="text-xs text-gray-500">
+                      Olivia
+                  </span>
+              </li>
+
+              <!-- Story #4 -->
+              <li class="flex flex-col items-center space-y-2">
+                  <!-- Ring -->
+                  <a class="block bg-white p-1 rounded-full" href="#">
+                      <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638612913771-8f00622b96fb?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+                  </a>
+      
+
+                  <!-- Username -->
+                  <span class="text-xs text-gray-500">
+                      Julia
+                  </span>
+              </li>
+              <!-- Story #1 -->
+              <li class="flex flex-col items-center space-y-2">
+                  <!-- Ring -->
+                  <a class="block bg-white p-1 rounded-full" href="#">
+                      <!-- Thumbnail -->
+                      <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638649602320-450b717fa622?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+                  </a>
+              
+
+                  <!-- Username -->
+                  <span class="text-xs text-gray-500">
+                      Hendrick
+                  </span>
+              </li>
+
+              <li class="flex flex-col items-center space-y-2">
+                <!-- Ring -->
+                <a class="block bg-white p-1 rounded-full" href="#">
+                    <!-- Thumbnail -->
+                    <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638649602320-450b717fa622?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+                </a>
+            
+
+                <!-- Username -->
+                <span class="text-xs text-gray-500">
+                    Hendrick
+                </span>
+            </li>
+
+            <li class="flex flex-col items-center space-y-2">
+              <!-- Ring -->
+              <a class="block bg-white p-1 rounded-full" href="#">
+                  <!-- Thumbnail -->
+                  <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638649602320-450b717fa622?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+              </a>
+          
+
+              <!-- Username -->
+              <span class="text-xs text-gray-500">
+                  Hendrick
+              </span>
+          </li>
+
+          <li class="flex flex-col items-center space-y-2">
+            <!-- Ring -->
+            <a class="block bg-white p-1 rounded-full" href="#">
+                <!-- Thumbnail -->
+                <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638649602320-450b717fa622?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+            </a>
         
 
+            <!-- Username -->
+            <span class="text-xs text-gray-500">
+                Hendrick
+            </span>
+        </li>
+
+          </ul>
+      </div>
         <h2 class="text-grey-700 text-6xl font-semibold"> Recipes</h2>
         <h3 class="text-2xl font-semibold"> for NInjas</h3>
         
@@ -295,49 +274,13 @@
 
 
 
-      <div>
+      <div class="">
+        <h4 class="font-bold mt-12 border-b border-gray-300 "> Latest Recipes</h4>
 
-        <h4 class="font-bold mt-12 border-b border-gray-300"> Latest Recipes</h4>
-        
-       
-        
-        
-        <div class="sliderAx h-auto">
-          <div id="slider-1" class="container mx-auto">
-            <div class="bg-cover bg-center  h-auto text-white py-24 px-10 object-fill" style="background-image: url(./b6a85a61-1c9f-4309-b592-09bf2cb600fa.avif)">
-           <div class="md:w-1/2">
-            <p class="font-bold text-sm uppercase">Services</p>
-            <p class="text-3xl font-bold">Hello world</p>
-            <p class="text-2xl mb-10 leading-none">Carousel with TailwindCSS and jQuery</p>
-            <a href="#" class="bg-purple-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">order now</a>
-            </div>  
-        </div> <!-- container -->
-          <br>
-          </div>
-    
-          <div id="slider-2" class="container mx-auto">
-            <div class="bg-cover bg-top  h-auto text-white py-24 px-10 object-fill" style="background-image: url(./4fca0893-6905-4620-be9b-bdb34abb4f0a.avif)">
-           
-      <p class="font-bold text-sm uppercase">Services</p>
-            <p class="text-3xl font-bold">Hello world</p>
-            <p class="text-2xl mb-10 leading-none">Carousel with TailwindCSS and jQuery</p>
-            <a href="#" class="bg-purple-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Order Now</a>
-             
-        </div> <!-- container -->
-          <br>
-          </div>
-        </div>
-     <div  class="flex justify-between w-12 mx-auto pb-2">
-            <button id="sButton1" onclick="sliderButton1()" class="bg-purple-400 rounded-full w-4 pb-2 " ></button>
-        <button id="sButton2" onclick="sliderButton2() " class="bg-purple-400 rounded-full w-4 p-2"></button>
-      </div>
-    
-
-
-        <div class="mt-8 grid lg:grid-cols-3 gap-10 ">
+        <div class="mt-8 grid lg:grid-cols-3 gap-10 w-70  ">
           <!-- cards go here -->
           <div class="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
-            <img src="./breakfast-2151201_640.jpg" alt="stew" class="w-full  h-40 sm:h-48 object-cover hover:shadow-lg">
+            <img src="./breakfast-2151201_640.jpg" alt="stew" class="w-full  h-32 sm:h-48 object-cover hover:shadow-lg">
             <div>
               <span class="font-bold"> veg noodles</span>
               <span class="block text-gray-500 text-sm"> Recipes by Mario</span>

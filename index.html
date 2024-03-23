@@ -10,7 +10,7 @@
 </head>
 
 
-<body class="text-gray-600 font-semibold">
+<body class="text-gray-600 font-semibold ">
   
   <div class="preloader"> </div>
 
@@ -31,13 +31,6 @@
           </div>
         </div>
         <ul class="text-sm mt-6 hidden md:block " id="menu">
-
-          <li>
-        </li>
-        
-
-
-
 
           <li class="text=gray-700 font-bold uppercase py-2">
             <a href="./profil.html" class="px-4 flex justify-end border-r-4 border-red-500">
@@ -109,6 +102,7 @@
 
 
       <div class="flex justify-center md:justify-end ">
+       
 
         <a href="#"
           class=" btn text-red-600 border-red-500 border-2 ml-2 rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider hover:bg-red-400 hover:text-white white transition ease-out duration-500">Log
@@ -137,17 +131,17 @@
 
 
         
-        <div class="bg-white shadow mt-6  rounded-lg p-6">
+        <div class="bg-grey-600 shadow mt-6  rounded-lg p-6">
           <h3 class="text-gray-600 text-sm font-semibold mb-4">Following</h3>
           <ul class="flex items-center justify-center space-x-2">
               <!-- Story #1 -->
               <li class="flex flex-col items-center space-y-2">
                   <!-- Ring -->
                   <a class="block bg-white p-1 rounded-full" href="#">
-                      <img class="w-16 rounded-full" src="https://images.unsplash.com/photo-1638612913771-8f00622b96fb?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=200&amp;h=200&amp;q=80">
+                      <img class="w-16 rounded-full" src="./1516.png">
                   </a>
                   <!-- Username -->
-                  <span class="text-xs text-gray-500">
+                  <span class="text-xs text-gray-600">
                       Sage
                   </span>
               </li>
@@ -344,7 +338,11 @@
             <div>
               <span class="font-bold"> veg noodles</span>
               <span class="block text-gray-500 text-sm"> Recipes by Mario</span>
+              <div class="bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute bottom-0 right-0 top-0 ml-0 mt-0 ">
+                <button onclick="addItem('Item 1', 10)" class="block w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded">Add to Cart</button>
+              </div>
             </div>
+            
             <div
               class="bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
               <svg class="w-5 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -352,8 +350,12 @@
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
               </svg>
+              
               <span>15 mins</span>
             </div>
+           
+
+           
           </div>
 
           <div class="bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg">
@@ -362,6 +364,9 @@
             <div>
               <span class="font-bold"> Bean Chili Stew</span>
               <span class="block text-gray-500 text-sm"> Recipes by Mario</span>
+              <div class="bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute bottom-0 right-0 top-0 ml-0 mt-0 ">
+                <button onclick="addItem('Item 1', 10)" class="block w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded">Add to Cart</button>
+              </div>
             </div>
             <div
               class="bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
@@ -379,6 +384,9 @@
             <div>
               <span class="font-bold"> veg noodles</span>
               <span class="block text-gray-500 text-sm"> Recipes by Mario</span>
+              <div class="bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute bottom-0 right-0 top-0 ml-0 mt-0 ">
+                <button onclick="addItem('Item 1', 10)" class="block w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded">Add to Cart</button>
+              </div>
             </div>
             <div
               class="bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
@@ -390,6 +398,8 @@
 
               <span>20 mins</span>
             </div>
+          
+
           </div>
 
         </div>
@@ -402,25 +412,7 @@
 
       </div>
 
-      <div role="status"
-        class="space-y-8 animate-pulse md:space-y-0 md:space-x-8 rtl:space-x-reverse md:flex md:items-center">
-        <div class="flex items-center justify-center w-full h-48 bg-gray-300 rounded sm:w-96 dark:bg-gray-700">
-          <svg class="w-10 h-10 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor" viewBox="0 0 20 18">
-            <path
-              d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z" />
-          </svg>
-        </div>
-        <div class="w-full">
-          <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[480px] mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[440px] mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[460px] mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[360px]"></div>
-        </div>
-        <span class="sr-only">Loading...</span>
-      </div>
+      
 
 
     </main>
